@@ -7,8 +7,8 @@
 header {
     text-align: center;
     color: white;
-    padding-top: 20px;
-    font-size: 40px;
+    padding-top: 15px;
+    font-size: 20px;
 }
 
 .container {
@@ -19,8 +19,8 @@ header {
     align-items: center;
     justify-content: center;
 }
-.search-bar {
-    width: 100%;
+.search-container {
+    width: 50%;
     max-width: 700px;
     background: aqua;
     display: flex;
@@ -29,7 +29,7 @@ header {
     padding: 10px 20px;
     backdrop-filter: blur(4px) saturate(180%);
 }
-.search-bar input {
+.search-container input {
     background: transparent;
     flex: 1;
     border: 0;
@@ -41,10 +41,10 @@ header {
 ::placeholder {
     color: black;
 }
-.search-bar img {
+.search-container img {
     width: 25px;
 }
-.search-bar button {
+.search-container button {
     border: 0;
     border-radius: 50%;
     width: 60px;
@@ -52,3 +52,61 @@ header {
     background: black;
     cursor: pointer;
 }
+
+
+#result {
+    color: whitesmoke;
+    line-height: 2em;
+  }
+  #result img {
+    display: block;
+    max-width: 12.5em;
+    margin: auto;
+  }
+  #result h2 {
+    font-size: 1.25em;
+    margin: 0.8em 0 1.6em 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: whitesmoke;
+    position: relative;
+  }
+  #result h2:before {
+    content: "";
+    position: absolute;
+    width: 15%;
+    height: 3px;
+    background-color: white;
+    left: 42.5%;
+    bottom: -0.3em;
+  }
+  #result h3 {
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-bottom: 0.2em;
+    color: whitesmoke;
+  }
+  #result ul {
+    margin-bottom: 1em;
+    margin-left: 1.8em;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  #result li {
+    margin-bottom: 0.3em;
+  }
+  #result p {
+    text-align: justify;
+    font-weight: 400;
+    font-size: 0.95em;
+  }
+  .msg {
+    text-align: center;
+  }
+  @media screen and (max-width: 600px) {
+    .container {
+      font-size: 14px;
+    }
+  }
