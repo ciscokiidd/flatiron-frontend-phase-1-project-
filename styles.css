@@ -6,10 +6,11 @@
 }
 header {
     text-align: center;
+    color: white;
+    padding-top: 20px;
+    font-size: 40px;
 }
-body {
-    background-color: beige;
-}
+
 .container {
     width: 100%;
     padding: 5%;
@@ -39,4 +40,15 @@ body {
 }
 ::placeholder {
     color: black;
+}
+.search-bar img {
+    width: 25px;
+}
+.search-bar button {
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: black;
+    cursor: pointer;
 }
