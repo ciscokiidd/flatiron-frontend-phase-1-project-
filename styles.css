@@ -26,7 +26,7 @@ header {
     font-size: 16px;
 }
 
-.search-container button {
+#search-btn {
     padding: 5px 10px;
     background-color: aqua;
     color: white;
