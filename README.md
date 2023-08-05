@@ -8,7 +8,7 @@ To start, you will click the link https://ciscokiidd.github.io/flatiron-frontend
 
 ## Usage
 
-Once loaded into the website, search for any cocktail or mixed drink by name on the search bar. Once your bev is typed click the the arrow next to the search bar to return your bev recipe and instructions.
+![Alt text](Animation.gif)
 
 ## Contributing
 
