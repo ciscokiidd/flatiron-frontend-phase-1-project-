@@ -4,7 +4,16 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
+body {
+    background-color: aqua;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    color: black;
+}
 
 #result {
     color: whitesmoke;
