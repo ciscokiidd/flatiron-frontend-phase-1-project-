@@ -46,17 +46,20 @@ header {
     background-color: whitesmoke;
     border-radius: 10px;
 }
+
 #result img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     margin-bottom: 10px;
 }
-  #result h2 {
+ 
+#result h2 {
     color: black;
     margin-bottom: 10px;
-  }
-  #result h2:before {
+}
+
+#result h2:before {
     content: "";
     position: absolute;
     width: 15%;
@@ -64,32 +67,39 @@ header {
     background-color: black;
     left: 42.5%;
     bottom: -0.3em;
-  }
-  #result h3 {
+}
+
+#result h3 {
     font-size: 1.1em;
     font-weight: 600;
     margin-bottom: 0.2em;
     color: black;
-  }
-  #result ul {
+}
+
+#result ul {
     margin-bottom: 1em;
     margin-left: 1.8em;
     display: grid;
     grid-template-columns: auto auto;
-  }
-  #result li {
+}
+
+#result li {
     margin-bottom: 0.3em;
-  }
-  #result p {
+}
+
+#result p {
     text-align: justify;
     font-weight: 400;
     font-size: 0.95em;
-  }
-  .msg {
+}
+
+.msg {
     text-align: center;
-  }
-  @media only screen and (max-width: 320px) {
+}
+
+@media only screen and (max-width: 320px) {
     .container {
       font-size: 14px;
     }
-  }
+}
+ 
