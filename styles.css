@@ -21,13 +21,13 @@ header {
 }
 
 .search-container input[type="text"] {
-    padding: 5px;
-    font-size: 16px;
+    padding: 10px;
+    font-size: 10px;
 }
 
 #search-btn {
     padding: 5px 10px;
-    background-color: aqua;
+    background-color: black;
     color: white;
     border: none;
     cursor: pointer;
